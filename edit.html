@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD Application</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="./styles/common.css" />
+    <link rel="stylesheet" media="screen" href="./styles/index.css" />
+    <link rel="stylesheet" media="screen" href="./styles/forms.css" />
+</head>
+<body>
+    <div class="holder">
+        <div class="row">
+            <div class="bars">
+                <h3>Students</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="holder">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-row">
+                    <label for="sname">Name</label>
+                    <input type="text" id="sname" required />
+                </div>
+                <div class="form-row">
+                    <label for="dob">DoB</label>
+                    <input type="text" id="dob" required />
+                </div>
+                <div class="form-row">
+                    <label for="sport">Sport</label>
+                    <input type="text" id="sport" required />
+                </div>
+                <div class="form-row">
+                    <label for="role">Role</label>
+                    <input type="text" id="role" required />
+                </div>
+                <div class="buttons">
+                    <button id="edit" onclick="editData();">Edit</button>
+                    <button id="cancel" onclick="cancelEdit();">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="holder">
+        <div class="row">
+            <h5 class="message"></h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/edit.js"></script>
+</body>
+</html>

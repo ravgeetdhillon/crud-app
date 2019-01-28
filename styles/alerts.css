@@ -1,0 +1,74 @@
+body{
+    position: relative;
+    top: 0;
+}
+.alert{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #dddddd80;
+    display: none;
+}
+.alert-box{
+    background: #cccccccc;
+    flex-direction: column;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    border: 1px solid #868686;
+    max-width: 340px;
+    width: 100%;
+}
+.alert-box .heading{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #868686;
+    padding: 0.4rem 0;
+}
+.alert-box .heading i{
+    font-size: 1.8rem;
+    padding-right: 0.4rem;
+}
+.alert-box .info{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 3.2rem;
+}
+.alert-box .actions{
+    width: 100%;
+    justify-content: center;
+    padding: 1.6rem 0rem;
+}
+.alert-box .actions button{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #868686;
+    margin: 0 0.8rem;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0;
+    font-size: 1.6rem;
+}
+.alert-box .actions .primary{
+    border: 1px solid #07ED07;
+}
+.alert-box .actions .primary i{
+    color: #07ED07;
+}
+.alert-box .actions .danger{
+    border: 1px solid #ED0707;
+}
+.alert-box .actions .danger i{
+    color: #ED0707;
+}
+.alert-box .actions i{
+    font-size: 1.4rem;
+    padding-right: 0.4rem;
+}

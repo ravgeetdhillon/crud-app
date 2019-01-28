@@ -1,0 +1,45 @@
+.form-holder{
+    width: 60%;
+    min-width: 600px;
+    flex-direction: column;
+}
+.form-row{
+    width: 100%;
+    align-items: baseline;
+    padding: 0.8rem 0;
+}
+
+label{
+    width: 60px;
+    text-align: right;
+}
+input{
+    border: 1px solid #dddddd;
+    color: #808080;
+    padding: 0.4rem;
+    width: 100%;
+    max-width: 200px;
+    margin-left: 1.6rem;
+}
+input:focus{
+    border: 1px solid #808080;
+}
+
+.form-holder .buttons{
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3.2rem 0 0.8rem 0;
+    width: 220px;
+}
+.form-holder .buttons button{
+    background: #ec0868;
+    padding: 0.4rem 1.6rem;
+    color: #efefef;
+    border-radius: 0.2rem;
+    width: 100px;
+}
+.form-holder .buttons button:disabled{
+    opacity: 0.5;
+    cursor: default;
+}

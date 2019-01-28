@@ -1,0 +1,96 @@
+*{
+    transition: 0.15s ease-in-out;
+}
+
+body{
+    background: #efefef;
+    color: #151515;
+}
+
+.holder{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 90%;
+    max-width: 2000px;
+    justify-content: center;
+    padding: 1.6rem 0.8rem;
+}
+.bars{
+    width: 60%;
+    min-width: 600px;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 5px solid #dddddd;
+}
+.bars button{
+    background: #ec0868;
+    padding: 0.4rem 1.6rem;
+    color: #efefef;
+    border-radius: 0.2rem;
+    margin-left: 3.2rem;
+}
+
+.table{
+    width: 60%;
+    min-width: 600px;
+    flex-direction: column;
+    border: 1px solid #dddddd;
+    border-radius: 0.2rem 0.2rem 0 0;
+    overflow: hidden;
+}
+.table .headers, .table .records{
+    width: 100%;
+}
+.table .headers{
+    justify-content: center;
+    align-items: stretch;
+    background: #dddddd;
+    padding: 0.8rem;
+}
+.table .head{
+    flex: 1;
+}
+.table .records{
+    padding-top: 1.6rem;
+    flex-direction: column;
+}
+.table .record{
+    width: 100%;
+    align-items: stretch;
+    padding: 0.4rem 0.8rem;
+    text-transform: capitalize;
+}
+.table .record:nth-child(odd){
+    background: #ececec;
+}
+.table .record:nth-child(even){
+    background: #e3e3e3;
+}
+.table .record:hover{
+    background: #c8c8c8;
+}
+.table .entry{
+    flex: 1;
+}
+.table .actions{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+.table .actions i{
+    color: inherit;
+    padding: 0 0.8rem;
+    font-size: 1.6rem;
+}
+.edit{
+    color: #07ED07 !important;
+}
+.del{
+    color: #ED0707 !important;
+}
+.message{
+    color: #868686;
+}
